@@ -1,12 +1,12 @@
     * {
-        margin: 0;
         padding: 0;
+        margin: 0;
         box-sizing: border-box;
     }
     
     body {
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         min-height: 100vh;
     }
@@ -22,10 +22,16 @@
         display: inline-block;
         font-size: 16px;
         transition-duration: 0.4s;
+        margin-left: 10px;
     }
     
     .button:hover {
         background-color: #4CAF50;
         /* Green */
         color: white;
+    }
+    
+    #mensagem {
+        padding: 15px 32px;
+        margin: 0;
     }
