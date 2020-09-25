@@ -16,3 +16,9 @@
     font-size: 9px;
     width: 100%;
 }
+
+#clique {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
